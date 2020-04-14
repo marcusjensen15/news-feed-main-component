@@ -2,58 +2,30 @@ var testJsonObject = [
     {
         'newsFeed': 'The Blazers Give Back',
         'subHeader': 'Charity',
-        'content': 'Jim Jones',
+        'content': 'Lorem Ipsum text',
         'articleLink': 'www.article1.com'
     },
     {
-      'firstName': 'Samantha',
-      'lastName': 'Jacobs',
-      'fullName': 'Samantha Jacobs',
-      'role': 'Account Executive',
-      'vacationHoursRemaining':'24',
-      'healthPlanName':'Health Plan C',
-      'startDate':'2019-09-25',
-      'directManager':'Linnea Jones',
-      'email':'samantha@theorem.com',
-      'password':'test2'
-    },
-    {
-      'firstName': 'Bruce',
-      'lastName': 'Stevenson',
-      'fullName': 'Bruce Stevenson',
-      'role': 'Customer Advocate',
-      'vacationHoursRemaining':'17',
-      'healthPlanName':'Health Plan B',
-      'startDate':'2019-11-25',
-      'directManager':'Linnea Jones',
-      'email':'bruce@theorem.com',
-      'password':'test3'
+      'newsFeed': 'The Blazers Win Big',
+      'subHeader': 'Game Recap',
+      'content': 'Lorem Ipsum text2',
+      'articleLink': 'www.article2.com'
 
     },
     {
-      'firstName': 'Linnea',
-      'lastName': 'Jones',
-      'fullName': 'Linnea Jones',
-      'role': 'VP of Sales',
-      'vacationHoursRemaining':'30',
-      'healthPlanName':'Health Plan B',
-      'startDate':'2018-09-25',
-      'directManager':'Toni Braxton',
-      'email':'linnea@theorem.com',
-      'password':'test4'
+      'newsFeed': 'The Blazers Volunteer at OHSU',
+      'subHeader': 'Charity',
+      'content': 'Lorem Ipsum text3',
+      'articleLink': 'www.article3.com'
 
     },
     {
-      'firstName': 'Toni',
-      'lastName': 'Braxton',
-      'fullName': 'Toni Braxton',
-      'role': 'CEO',
-      'vacationHoursRemaining':'19',
-      'healthPlanName':'Health Plan A',
-      'startDate':'2018-01-14',
-      'directManager':'',
-      'email':'toni@theorem.com',
-      'password':'test5'
+      'newsFeed': 'The Blazers Visit their Oldest Fan',
+      'subHeader': 'Fan Zone',
+      'content': 'Lorem Ipsum text4',
+      'articleLink': 'www.article4.com'
+
+    }
 
     }]
     //end testJsonObject
