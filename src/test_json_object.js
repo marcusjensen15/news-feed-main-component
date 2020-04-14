@@ -31,7 +31,7 @@ var testJsonObject = [
 
     }
 
-    }]
+  ]
     //end testJsonObject
 
     export default testJsonObject;
