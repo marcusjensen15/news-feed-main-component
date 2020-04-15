@@ -24,7 +24,7 @@ return(
       <a className="removeLinkLine"href={props.newsFeedMainData.articleLink}> Link for more > </a>
     </div>
     <div className="newsFeedImageContainer">
-      <img className ="newsFeedImage"src="https://via.placeholder.com/1000x150" alt="350x150 image"></img>
+      <img className ="newsFeedImage"src="https://via.placeholder.com/1000x300" alt="350x150 image"></img>
     </div>
   </div>
 
