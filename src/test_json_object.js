@@ -2,7 +2,7 @@ var testJsonObject = [
     {
         'newsFeed': 'The Blazers Give Back',
         'subHeader': 'Charity',
-        'content': 'Lorem Ipsum text',
+        'content': 'Lorem Ipsum text super fun',
         'articleLink': 'www.article1.com',
         'articleImage': "image 1"
     },

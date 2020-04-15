@@ -6,13 +6,8 @@ export default function NewsFeedMain(props){
 
 return(
   <div>
-    <p className="test1">This is NewsFeedMain</p>
+    <p className="test1">{props.newsFeedMainData.content}</p>
   </div>
 
 );
 }
-
-NewsFeedMain.propTypes = {
-
-
-};
