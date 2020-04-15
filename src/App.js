@@ -30,8 +30,10 @@ render(){
   return (
     <div className="App">
       <div className="Container">
-        <NewsFeedMain newsFeedMainData={this.state.newsFeedMainData}/>
-        <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData}/>
+        <div className="bkground">
+          <NewsFeedMain newsFeedMainData={this.state.newsFeedMainData}/>
+          <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData}/>
+        </div>
       </div>
     </div>
     );
