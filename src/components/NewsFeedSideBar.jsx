@@ -5,7 +5,16 @@ import PropTypes from 'prop-types';
 
 export default function NewsFeedSideBar(props){
 
-  //write function to cut off text at certain char limit. This way it won't overflow and break div
+//write function to cut off text at certain char limit. This way it won't overflow and break div
+
+function capContentLengthSideBar(string){
+      let displayString="";
+
+      if(string.length >= 100){
+        displayString = string.slice(0,100);
+        return displayString + "...";
+      }
+    }
 
 
 return(
@@ -14,7 +23,7 @@ return(
     <div className="newsFeedImageContainer">
       <img className ="newsFeedSidebarImage"src="https://via.placeholder.com/300x80" alt="350x150 image"></img>
     </div>
-    <p>{props.newsFeedbackSideBarData.content}</p>
+    <p className="newsFeedSidebarContent">{capContentLengthSideBar(props.newsFeedbackSideBarData.content)}</p>
 
 
   </div>

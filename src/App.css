@@ -74,6 +74,17 @@ html, body{
 
 .newsFeedSideBarHeader{
   text-align: center;
+  color: black;
+}
+
+.newsFeedSidebarContent{
+  font-size: 1.7rem;
+  font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
+  padding-right: 25%;
+  padding-left: 5%;
+  color: black;
+
+
 }
 
 .newsFeedSidebarImage{
