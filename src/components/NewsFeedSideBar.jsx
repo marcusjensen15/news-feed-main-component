@@ -4,9 +4,10 @@ import PropTypes from 'prop-types';
 
 
 export default function NewsFeedSideBar(props){
+
 return(
   <div>
-    <p className="test2">This is NewsFeedSideBar</p>
+    <p className="test2">{props.newsFeedbackSideBarData[0].content}</p>
   </div>
 
 );
@@ -14,6 +15,5 @@ return(
 }
 
 NewsFeedSideBar.propTypes = {
-
-
+  newsFeedbackSideBarData: PropTypes.array
 };
