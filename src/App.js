@@ -26,23 +26,13 @@ class App extends React.Component {
   }
 
 
-
-
-//   componentDidMount = async () => {
-//   let masterList = testJsonObject;
-//   // let masterListSlice = masterList.slice(1,3);
-//
-//    await this.setState({masterNewsList: masterList})
-//    await this.setState({newsFeedMainData: masterList[0]})
-//    await this.setState({newsFeedbackSideBarData: [masterList[1],masterList[2]] })
-//    await console.log(this.state);
-// }
-
 render(){
   return (
     <div className="App">
-      <NewsFeedMain newsFeedMainData={this.state.newsFeedMainData}/>
-      <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData}/>
+      <div className="Container">
+        <NewsFeedMain newsFeedMainData={this.state.newsFeedMainData}/>
+        <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData}/>
+      </div>
     </div>
     );
   }
