@@ -6,11 +6,17 @@ html, body{
 .App {
   /* text-align: center; */
 }
-/* will need to modualize all css in seperate files */
+/* will need to modualize all css in seperate files, rename classes to better reflect what they are */
 /* NewsFeedMain Styles */
 
 .newsFeedImageContainer{
   border: 1px solid black;
+}
+
+.removeLinkLine{
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
 
 }
 .newsFeedImage{
@@ -19,37 +25,65 @@ html, body{
   display: block;
 }
 
-
-
 .newsFeedLink{
   margin-bottom: 40px;
   padding-left: 5%;
+  text-decoration: none;
+  font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
+
 }
 
 .subHeaderMain{
   padding-left: 5%;
+  font-family: “UnitedSansCdHv”, franklin-gothic-urw !important;
+  font-size: 1.8rem;
+  margin-bottom: 2%;
 }
 
 .newsFeedMainContent{
   padding-left: 5%;
-
+  font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
+  padding-right: 30%;
+  font-size: 1.7rem;
 }
 
 
 .test1{
-  color: orange;
+  color: black;
   background-color: #FFFFFF;
   float: left;
   width: 67%;
   border: 1px solid black;
   /* outline: 2px solid black; */
 
-  padding-top: 0px;
+  /* padding-top: 0px; */
   margin-top: 50px;
   /* position: relative; */
 
 }
 
+.headerUnderline{
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  font-size: 2.2rem;
+  font-family: “UnitedSansCdHv”, franklin-gothic-urw !important;
+}
+
+/* NewsFeedSidebarStyles below */
+
+.newsFeedSideBarHeader{
+  text-align: center;
+}
+
+.newsFeedSidebarImage{
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: block;
+
+
+}
 
 .test2{
   color: blue;
@@ -64,14 +98,8 @@ html, body{
 .Container{
   border: 1px solid black;
 
-  margin-left: 20%;
-  margin-right: 20%;
-  width: 60%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
   margin-top: 5%;
-}
-
-.headerUnderline{
-  border-bottom: 1px solid black;
-  padding-bottom: 20px;
-  padding-left: 5%;
 }

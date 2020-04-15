@@ -25,6 +25,8 @@ class App extends React.Component {
     };
   }
 
+  //insert div to put newsFeedback sidebar components inside so they stack correctly
+
 
 render(){
   return (
@@ -32,7 +34,11 @@ render(){
       <div className="Container">
 
           <NewsFeedMain newsFeedMainData={this.state.newsFeedMainData}/>
-          <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData}/>
+          <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[0]}/>
+          <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[1]}/>
+
+
+
       </div>
     </div>
     );
