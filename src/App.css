@@ -39,8 +39,28 @@
 
 .test1{
   color: orange;
+  /* column-count: 2; */
+  float: left;
+  width: 50%;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 0px;
 }
 
 .test2{
   color: blue;
+  width: 30%;
+  float: right;
+  border: 1px solid black;
+
+
+}
+
+.Container{
+  border: 1px solid black;
+
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  margin-top: 5%;
 }
