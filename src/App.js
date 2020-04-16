@@ -43,9 +43,6 @@ render(){
             <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[0]}/>
             <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[1]}/>
             <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[1]}/>
-            <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[1]}/>
-            <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[1]}/>
-            <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[1]}/>
           </div>
       </div>
 

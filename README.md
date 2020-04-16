@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+##Project Description:
 
-### `yarn start`
+This is a first iteration POC for a client News Feed Website component. The app is made out of two react components: NewsFeedMain.jsx and NewsFeedSideBar.jsx.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The client will be able to add as many individual NewsFeedSideBar articles as they like. All of them will be formatted in a column along the right side of the screen. The area below the featured article can be used for additional content. As the app scales down to mobile sized, the NewsFeedMain component is hidden and the NewsFeedSideBar becomes the focal point (font/image size adjusted accordingly). All of the data for this application is being pulled from test_json_object.js. In production, this will be pulled from a news API.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Note: This application is not yet optimized for 'mid-sized' screens (tablets).
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+All CSS is modular:
 
-### `yarn build`
+NewsFeedMain.jsx -> NewsFeedMain.css (All classes in NewsFeedMain.jsx begin with 'newsFeedMain')
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+NewsFeedSideBar.jsx -> NewsFeedSideBar.css (All classes in NewsFeedSideBar begin with 'newsFeedSideBar')
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Mobile Format -> MobileStyle.css
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+All CSS files are connected in App.js
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+##Installation Instructions
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. Clone this repo from GitHub.
+2. Navigate to the local repo.
+3. Run 'npm install'.
+4. To run app: 'npm run start'.
+5. The application should run on localhost:3000.
