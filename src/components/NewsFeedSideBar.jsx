@@ -18,12 +18,12 @@ function capContentLengthSideBar(string){
 
 
 return(
-  <div className="individualSideBarArticle">
+  <div className="newsFeedSideBarArticle">
     <h1 className="newsFeedSideBarHeader">{props.newsFeedbackSideBarData.newsFeed}</h1>
-    <div className="newsFeedImageContainer">
-      <img className ="newsFeedSidebarImage"src="https://via.placeholder.com/300x175" alt="350x175 image"></img>
+    <div className="newsFeedSideBarImageContainer">
+      <img className ="newsFeedSideBarImage"src="https://via.placeholder.com/300x175" alt="350x175 image"></img>
     </div>
-    <p className="newsFeedSidebarContent">{capContentLengthSideBar(props.newsFeedbackSideBarData.content)}</p>
+    <p className="newsFeedSideBarContent">{capContentLengthSideBar(props.newsFeedbackSideBarData.content)}</p>
 
 
   </div>

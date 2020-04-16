@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-// import { useMediaQuery } from 'react-responsive';
 
+// stylesheets
+
+import './App.css';
+import './css/NewsFeedMain.css';
+import './css/NewsFeedSideBar.css';
+import './css/MobileStyle.css';
 
 //Dummy data object
 
@@ -37,9 +41,6 @@ render(){
           <NewsFeedMain newsFeedMainData={this.state.newsFeedMainData}/>
           <div className="newsFeedSidebarContainer">
             <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[0]}/>
-            <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[1]}/>
-            <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[1]}/>
-            <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[1]}/>
             <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[1]}/>
             <NewsFeedSideBar newsFeedbackSideBarData={this.state.newsFeedbackSideBarData[1]}/>
           </div>
