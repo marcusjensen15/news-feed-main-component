@@ -10,8 +10,8 @@ export default function NewsFeedSideBar(props){
 function capContentLengthSideBar(string){
       let displayString="";
 
-      if(string.length >= 50){
-        displayString = string.slice(0,50);
+      if(string.length >= 150){
+        displayString = string.slice(0,150);
         return displayString + "...";
       }
     }
