@@ -1,6 +1,6 @@
 
 
-##Project Description:
+## Project Description:
 
 This is a first iteration POC for a client News Feed Website component. The app is made out of two react components: NewsFeedMain.jsx and NewsFeedSideBar.jsx.
 
@@ -20,7 +20,7 @@ Mobile Format -> MobileStyle.css
 All CSS files are connected in App.js
 
 
-##Installation Instructions
+## Installation Instructions
 
 1. Clone this repo from GitHub.
 2. Navigate to the local repo.
