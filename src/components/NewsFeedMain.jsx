@@ -16,15 +16,15 @@ function capContentLength(string){
     }
 
 return(
-  <div className="test1">
-    <h3 className="headerUnderline">{props.newsFeedMainData.newsFeed}</h3>
-    <div className="newsFeedImageContainer">
-      <img className ="newsFeedImage"src="https://via.placeholder.com/1000x300" alt="350x150 image"></img>
+  <div className="newsFeedMainContainer">
+    <h3 className="newsFeedMainHeader">{props.newsFeedMainData.newsFeed}</h3>
+    <div className="newsFeedImageMainContainer">
+      <img className ="newsFeedMainImage"src="https://via.placeholder.com/1000x300" alt="350x150 image"></img>
     </div>
-    <h5 className="subHeaderMain">{props.newsFeedMainData.subHeader}</h5>
+    <h5 className="newsFeedMainSubHeader">{props.newsFeedMainData.subHeader}</h5>
     <p className="newsFeedMainContent">{capContentLength(props.newsFeedMainData.content)}</p>
-    <div className="newsFeedLink">
-      <a className="removeLinkLine"href={props.newsFeedMainData.articleLink}> Link for more > </a>
+    <div className="newsFeedMainLinkContainer">
+      <a className="newsFeedMainLink"href={props.newsFeedMainData.articleLink}> Link for more > </a>
     </div>
 
   </div>
